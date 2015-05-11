@@ -1,14 +1,14 @@
 package paket;
 
 public class Glumac {
-	public int visina;
+	public String visina;
 	public int godine;
 	public int brojNagrada;
 	public String pol;
-	public int getVisina() {
+	public String getVisina() {
 		return visina;
 	}
-	public void setVisina(int visina) {
+	public void setVisina (String visina) {
 		this.visina = visina;
 	}
 	public int getGodine() {
